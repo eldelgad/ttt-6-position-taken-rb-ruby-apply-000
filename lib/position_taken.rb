@@ -2,7 +2,7 @@
 
 def position_taken? (board, index)
   
-  index [8]
+  index ["X" || "O"]
   
   board [index] == ["  " || " "]
   
