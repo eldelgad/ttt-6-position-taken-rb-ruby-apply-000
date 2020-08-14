@@ -4,6 +4,6 @@ def position_taken? (board, index)
   
   board [index] == ["  " || " "]
   
-  index == "X" || "O"
+  index = "X" || "O"
   
 end
