@@ -1,9 +1,9 @@
 # code your #position_taken? method here!
 
-def position_taken? (board, index)
+def position_taken? (board)
   
-  board [index] == ["  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  " || " ", " ", " ", " ", " ", " ", " "," ", " "]
+  index [0 - 8]
   
-  index == [0, 1, 2, 3, 4, 5, 6, 7, 8]
-    
+  board [index] == ["  " || " "]
+  
 end
